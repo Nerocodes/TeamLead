@@ -1,0 +1,130 @@
+body {
+  background-color:#dfdfdf;
+  overflow-x: hidden;
+}
+
+main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70vh;
+  font-size: 1.5rem;
+}
+
+aside {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  font-family: 'Cinzel', serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+aside p {
+  background-color: #5B001C;
+  font-family: 'Cinzel', serif;
+  color: #D6AAB8;
+  padding: 1rem;
+  border-radius: 50%;
+  display: flex;
+  font-size: 1.2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#week {
+  display: block;
+  text-align: center;
+}
+
+section p {
+  font-size: 2rem;
+}
+
+.team {
+  width: 350px;
+  border: 1px solid #5B001C;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.team h2 {
+  background-color: #5B001C;
+  font-family: 'Cinzel', serif;
+  color: #ffffff;
+  padding: 0.5rem 0rem;
+  margin-top: 0rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team-lead {
+  width: 350px;
+  border: 1px solid #041744;
+  border-radius: 5px;
+  margin-right: 2rem;
+}
+
+.team-lead h3 {
+  background-color: #041744;
+  font-family: 'Cinzel', serif;
+  color: #ffffff;
+  padding: 0.5rem 0rem;
+  margin-top: 0rem;
+}
+
+.qa-manager {
+  width: 350px;
+  border: 1px solid #01353F;
+  border-radius: 5px;
+}
+
+.qa-manager h3 {
+  background-color: #01353F;
+  font-family: 'Cinzel', serif;
+  color: #ffffff;
+  padding: 0.5rem 0rem;
+  margin-top: 0rem;
+}
+
+@media screen and (max-width: 751px){
+  aside {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  section p {
+    font-size: 1.2rem;
+  }
+
+  .team, .team-lead, .qa-manager {
+    width: 250px;
+  }
+
+  .team h2, .team-lead h3, .qa-manager h3 {
+    font-size: 1.5rem;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-lead {
+    margin-right: 0rem;
+    margin-bottom: 2rem;
+  }
+}
